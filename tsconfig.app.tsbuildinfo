@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/components/resume/resume.tsx","./src/components/resume/resume.types.ts","./src/components/resume/index.ts","./src/components/resume/components/sectionheading.tsx","./src/components/resume/components/twocolumnrow.tsx"],"version":"5.9.3"}

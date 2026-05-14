@@ -1,0 +1,90 @@
+/* ─── Theme tokens ───────────────────────────────────────────── */
+:root {
+  /* Typography */
+  --font-serif: 'Times New Roman', Times, serif;
+  --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --size-base: 10.5pt;
+  --size-sm: 9.5pt;
+  --size-xs: 9pt;
+  --size-name: 22pt;
+  --line-height: 1.35;
+
+  /* Colors */
+  --color-text: #000;
+  --color-bg: #e8e8e8;
+  --color-surface: #fff;
+  --color-muted: #555;
+  --color-rule: #000;
+
+  /* Buttons */
+  --color-btn-bg: #1a1a1a;
+  --color-btn-text: #fff;
+  --color-btn-hover: #333;
+
+  /* Layout */
+  --resume-width: 816px;
+  --resume-padding: 52px 60px 60px;
+  --section-gap: 12px;
+  --entry-gap: 7px;
+}
+
+/* ─── Reset ─────────────────────────────────────────────────── */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ─── Base ───────────────────────────────────────────────────── */
+body {
+  font-family: var(--font-serif);
+  font-size: var(--size-base);
+  color: var(--color-text);
+  background: var(--color-bg);
+  line-height: var(--line-height);
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding: 2rem 1rem 3rem;
+}
+
+/* ─── Toolbar ────────────────────────────────────────────────── */
+.toolbar {
+  width: 100%;
+  max-width: var(--resume-width);
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 0.75rem;
+}
+
+.download-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.42rem 0.9rem;
+  background: var(--color-btn-bg);
+  color: var(--color-btn-text);
+  border: none;
+  border-radius: 4px;
+  font-family: var(--font-sans);
+  font-size: 0.82rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.download-btn:hover {
+  background: var(--color-btn-hover);
+}
+
+.download-btn:focus-visible {
+  outline: 2px solid var(--color-btn-bg);
+  outline-offset: 2px;
+}
