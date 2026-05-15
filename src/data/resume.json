@@ -36,7 +36,7 @@
       "highlights": [
         "Redesigned and rewrote the Swyftx cryptocurrency exchange web app in React and TypeScript, working closely with designers throughout development.",
         "Specialised in building trading charts and market visualisations using d3.js and TradingView.",
-        "Contributed reusable UI components to the internal design system.",
+        "Built and maintained reusable UI components for the internal design system.",
         "Reviewed code and mentored junior developers within the team."
       ],
       "company": "SwyftX",
