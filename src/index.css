@@ -88,3 +88,29 @@ body {
   outline: 2px solid var(--color-btn-bg);
   outline-offset: 2px;
 }
+
+@media (max-width: 720px) {
+  body {
+    background: var(--color-surface);
+  }
+
+  #root {
+    padding: 0;
+  }
+
+  .toolbar {
+    padding: 0.75rem 1rem;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 420px) {
+  .toolbar {
+    justify-content: stretch;
+  }
+
+  .download-btn {
+    justify-content: center;
+    width: 100%;
+  }
+}
