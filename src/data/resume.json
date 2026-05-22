@@ -20,7 +20,7 @@
   "work": [
     {
       "highlights": [
-        "Built a greenfield cross-platform exhibits management platform using React Native, React Native Web, TypeScript, and MobX, delivering features across mobile and web clients.",
+        "Part of a small team that built a greenfield cross-platform exhibits management platform using React Native, React Native Web, TypeScript, and MobX, across mobile and web clients.",
         "Built a PDF generation engine for creating official government forms from dynamic templates, and contributed broadly to the React/TypeScript web portal it was part of.",
         "Built offline-first barcode scanning realtime sync for a field auditing system, including validation, optimistic updates, and WebSocket-based synchronisation.",
         "Contributed to backend services using Express, MSSQL, and TypeORM.",
