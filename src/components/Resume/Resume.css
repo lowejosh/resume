@@ -11,7 +11,7 @@
 /* ─── Header ─────────────────────────────────────────────────── */
 .resume-header {
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 6px;
 }
 
 .resume-name {
@@ -25,7 +25,7 @@
 
 .resume-contact {
   font-size: var(--size-sm);
-  margin-top: 4px;
+  margin-top: 2px;
 }
 
 .resume-contact a {
@@ -88,6 +88,22 @@ ul {
 
 li {
   margin-bottom: 2px;
+}
+
+.work-highlights {
+  list-style: none;
+}
+
+.work-highlights li {
+  padding-left: 1.4em;
+  text-indent: -1.4em;
+  margin-left: -1.4em;
+}
+
+.bullet-marker {
+  display: inline-block;
+  width: 1.4em;
+  text-indent: 0;
 }
 
 /* ─── Skills ─────────────────────────────────────────────────── */
@@ -227,6 +243,6 @@ li {
   }
 
   .resume {
-    padding: 0.6in 0.75in;
+    padding: 0.475in 0.75in 0.6in;
   }
 }

@@ -23,9 +23,9 @@
 
   /* Layout */
   --resume-width: 816px;
-  --resume-padding: 52px 60px 60px;
-  --section-gap: 12px;
-  --entry-gap: 7px;
+  --resume-padding: 40px 60px 60px;
+  --section-gap: 10px;
+  --entry-gap: 5px;
 }
 
 /* ─── Reset ─────────────────────────────────────────────────── */

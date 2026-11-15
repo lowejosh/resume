@@ -20,24 +20,34 @@
   "work": [
     {
       "highlights": [
+        "Contributed features, bug fixes, and usability improvements to Australian Retirement Trust’s React Native mobile app.",
+        "Identified and implemented a login optimisation, reducing average login time by ~3–5 seconds.",
+        "Built an Adobe Target integration with reusable React Native components to simplify fetching and rendering personalised experiences within the app."
+      ],
+      "company": "Australian Retirement Trust",
+      "position": "Software Engineer",
+      "location": "Brisbane, Australia",
+      "startDate": "Jul 2026",
+      "endDate": "Present"
+    },
+    {
+      "highlights": [
         "Part of a small team that built a greenfield cross-platform exhibits management platform using React Native, React Native Web, TypeScript, and MobX, across mobile and web clients.",
         "Built a PDF generation engine for creating official government forms from dynamic templates, and contributed broadly to the React/TypeScript web portal it was part of.",
-        "Built offline-first barcode scanning realtime sync for a field auditing system, including validation, optimistic updates, and WebSocket-based synchronisation.",
-        "Contributed to backend services using Express, MSSQL, and TypeORM.",
+        "Built offline-first barcode scanning with real-time synchronisation for a field auditing system, including validation, optimistic updates, and WebSocket integration.",
         "Implemented Microsoft Intune SDK integration for secure enterprise mobile app management and configuration policies."
       ],
       "company": "BDNA",
-      "position": "Software Engineer",
+      "position": "Senior Software Engineer",
       "location": "Brisbane, Australia",
       "startDate": "Jul 2023",
-      "endDate": "Present"
+      "endDate": "Jul 2026"
     },
     {
       "highlights": [
         "Redesigned and rewrote the Swyftx cryptocurrency exchange web app in React and TypeScript, working closely with designers throughout development.",
         "Specialised in building trading charts and market visualisations using d3.js and TradingView.",
-        "Built and maintained reusable UI components for the internal design system.",
-        "Reviewed code and mentored junior developers within the team."
+        "Built and maintained reusable UI components for the internal design system."
       ],
       "company": "SwyftX",
       "position": "Software Engineer",
@@ -48,9 +58,8 @@
     {
       "endDate": "Oct 2021",
       "highlights": [
-        "Built frontend features and UI components for internal and client-facing applications using TypeScript, React, Material-UI, and MobX.",
-        "Designed and built a Raspberry Pi–based data display board with a drag-and-drop interface for configuring chart types, timespans, and slide order; deployed across multiple client sites.",
-        "Built a broad range of interactive charts and visualisations for energy metrics."
+        "Built features, UI components and interactive energy visualisations for internal and client-facing applications using TypeScript, React, Material-UI, and MobX.",
+        "Designed and built a Raspberry Pi–based data display board with a drag-and-drop interface for configuring chart types, timespans, and slide order; deployed across multiple client sites."
       ],
       "company": "Solar Schools",
       "position": "Frontend Software Engineer",
@@ -60,11 +69,8 @@
   ],
   "skills": [
     {
-      "name": "Languages",
-      "keywords": ["JavaScript", "TypeScript", "HTML/CSS"]
-    },
-    {
       "keywords": [
+        "TypeScript",
         "React",
         "React Native",
         "MobX",
@@ -74,7 +80,7 @@
         "GraphQL",
         "TanStack"
       ],
-      "name": "Tech Stack"
+      "name": "Technologies"
     }
   ],
   "projects": [

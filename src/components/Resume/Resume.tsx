@@ -18,8 +18,8 @@ export default function Resume() {
   return (
     <main className="resume" aria-label="Resume">
       <ResumeHeader basics={basics} email={CONTACT_EMAIL} phone={CONTACT_PHONE} />
-      <EducationSection education={education} />
       <WorkSection work={work} />
+      <EducationSection education={education} />
       <SkillsSection skills={skills} />
       <ProjectsSection projects={projects} />
     </main>

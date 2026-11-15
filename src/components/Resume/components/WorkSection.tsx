@@ -20,9 +20,12 @@ export default function WorkSection({ work }: WorkSectionProps) {
             left={<em>{job.position}</em>}
             right={`${job.startDate} - ${job.endDate}`}
           />
-          <ul aria-label={`Highlights at ${job.company}`}>
+          <ul className="work-highlights" role="list" aria-label={`Highlights at ${job.company}`}>
             {job.highlights.map((highlight, i) => (
-              <li key={i}>{highlight}</li>
+              <li key={i}>
+                <span className="bullet-marker" aria-hidden="true">{"•\u00a0"}</span>
+                {highlight}
+              </li>
             ))}
           </ul>
         </div>
